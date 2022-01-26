@@ -2,13 +2,13 @@
 
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.example.demo1.mapper.UserLoginMapper">
-    <resultMap id="UserResultMap" type="com.example.demo1.entity.UserLogin">
+<mapper namespace="com.demo1.mapper.UserLoginMapper">
+    <resultMap id="UserResultMap" type="com.demo1.entity.UserLogin">
         <result column="userName" property="userName" jdbcType="VARCHAR"/>
         <result column="password" property="password" jdbcType="VARCHAR"/>
     </resultMap>
 
-    <select id="selectBaseFieldResultMap" resultType="com.example.demo1.entity.UserLogin">
+    <select id="selectBaseFieldResultMap" resultType="com.demo1.entity.UserLogin">
         select * from user;
     </select>
 

@@ -1,7 +1,0 @@
-com\example\demo1\mapper\UserLoginMapper.class
-com\example\demo1\controller\TestController.class
-com\example\demo1\controller\UserLoginController.class
-com\example\demo1\services\impl\UserLoginImpl.class
-com\example\demo1\entity\UserLogin.class
-com\example\demo1\services\UserLoginService.class
-com\example\demo1\Demo1Application.class
